@@ -1,6 +1,6 @@
 [
   {
-    "name": "Food",
+    "name": "car1",
     "images": [
       {
         "src": "../assets/images/food/food-1.jpeg",
@@ -29,40 +29,40 @@
     ]
   },
   {
-    "name": "Mountains",
+    "name": "car2",
     "images": [
       {
-        "src": "../assets/images/mountains/mountain-1.jpg",
+        "src": "../assets/images/mountains/mountain-1.jpeg",
         "alt": "Mountain scene"
       },
       {
-        "src": "../assets/images/mountains/mountain-2.jpg",
+        "src": "../assets/images/mountains/mountain-2.jpeg",
         "alt": "Mountain scene"
       },
       {
-        "src": "../assets/images/mountains/mountain-3.jpg",
+        "src": "../assets/images/mountains/mountain-3.jpeg",
         "alt": "Mountain scene"
       },
       {
-        "src": "../assets/images/mountains/mountain-4.jpg",
+        "src": "../assets/images/mountains/mountain-4.jpeg",
         "alt": "Mountain scene"
       },
       {
-        "src": "../assets/images/mountains/mountain-5.jpg",
+        "src": "../assets/images/mountains/mountain-5.jpeg",
         "alt": "Mountain scene"
       },
       {
-        "src": "../assets/images/mountains/mountain-6.jpg",
+        "src": "../assets/images/mountains/mountain-6.jpeg",
         "alt": "Mountain scene"
       },
       {
-        "src": "../assets/images/mountains/mountain-7.jpg",
+        "src": "../assets/images/mountains/mountain-.jpg",
         "alt": "Mountain scene"
       }
     ]
   },
   {
-    "name": "Plants",
+    "name": "car3",
     "images": [
       {
         "src": "../assets/images/plants/plant-1.jpg",

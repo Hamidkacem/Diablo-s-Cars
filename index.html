@@ -148,6 +148,26 @@
       #buttonCard:hover {
         background-color: #b40b08;
       }
+      @media only screen and (max-width: 767px) {
+      .mobile-only {
+        display: block; /* Show the div on mobile devices */
+      }
+    }
+      .mobile-only{
+        display: none;
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+      }
+      
+
     </style>
   <script src="./js/galleryApp.js" type="module"></script>
 
@@ -490,7 +510,7 @@
             <ul class="has-scrollbar">
               <li class="scrollbar-item"    >
                 <div class="work-card">
-                  <button class="image-item" data-modal="true" data-gallery="Food" aria-label="Open Food image gallery">
+                  <button class="image-item" data-modal="true" data-gallery="car1" aria-label="Open Food image gallery">
                   <figure
                     class="card-banner img-holder image-container"
                     style="--width: 350; --height: 406"
@@ -522,14 +542,14 @@
 
               <li class="scrollbar-item"  >
                 <div class="work-card">
-                  <button class="image-item" data-modal="true" data-gallery="Food" aria-label="Open Food image gallery">
+                  <button class="image-item" data-modal="true" data-gallery="car2" aria-label="Open Food image gallery">
 
                   <figure
                     class="card-banner img-holder image-container"
                     style="--width: 350; --height: 406"
                   >
                     <img
-                      src="./assets/images/work-1.jpeg"
+                      src="./assets/images/work-2.jpeg"
                       width="350"
                       height="406"
                       loading="lazy"
@@ -553,14 +573,14 @@
                 </div>
               </li> <li class="scrollbar-item"    >
                 <div class="work-card">
-                  <button class="image-item" data-modal="true" data-gallery="Food" aria-label="Open Food image gallery">
+                  <button class="image-item" data-modal="true" data-gallery="car3" aria-label="Open Food image gallery">
 
                   <figure
                     class="card-banner img-holder image-container"
                     style="--width: 350; --height: 406"
                   >
                     <img
-                      src="./assets/images/work-1.jpeg"
+                      src="./assets/images/work-2.jpeg"
                       width="350"
                       height="406"
                       loading="lazy"
@@ -602,6 +622,12 @@
   -->
 
     <footer class="footer">
+      <div class="mobile-only">
+        <a href="https://wa.me/41783240816">
+         <img src="./assets/images/WhatsApp_icon.png" alt="" >
+
+        </a>
+      </div>
       <div class="footer-top section">
         <div class="container">
           <div class="footer-brand">
