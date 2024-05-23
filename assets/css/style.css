@@ -524,6 +524,7 @@ flex-wrap: wrap;
   padding: 5px;
 }
 .logo img {
+  margin-left: 25px;
   width: 100px;
 }
 

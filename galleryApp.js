@@ -27,10 +27,13 @@ class Modal {
   openModal() {
     modalableImages.forEach((btn) => (btn.tabIndex = "-1"));
     this.modal.removeAttribute("hidden");
+    console.log("im here");
+    
     this.modal.classList.add("active");
   }
   closeModal() {
     modalTrack.style.transition = "none";
+    
     isMoving = false;
     modalableImages.forEach((btn) => (btn.tabIndex = "0"));
     this.modal.setAttribute("hidden", "true");

@@ -57,55 +57,9 @@
     <link rel="preload" as="image" href="./assets/images/hero-banner 2.png" />
     <link rel="preload" as="image" href="./assets/images/hero-bg.jpg" />
     <style>
-      .addToCart {
-        position: absolute;
-        left: 1;
-        z-index: 1;
-      }
-      .sidebody {
-        width: 100%;
-
-        display: flex;
-        justify-content: center;
-      }
-      .searchBar {
-        width: 100%;
-
-        background-color: #eee;
-        border-radius: 5px;
-        padding: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      }
-      input {
-        border: none;
-        outline: none;
-        background: none;
-      }
-      .glass:hover {
-        color: hsl(222, 47%, 15%);
-        cursor: pointer;
-      }
-      .social-icons {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .fa-brands {
-        font-size: 25px;
-        margin: 0 10px;
-        color: #b40b08;
-        cursor: pointer;
-      }
-      .fa-brands:hover {
-        color: hsl(222, 47%, 15%);
-      }
-      .data {
-        width: 100%;
-        border-radius: 3px;
-        overflow-y: auto;
-      }
+    
+      
+     
       #root {
         width: 100%;
         display: grid;
@@ -266,7 +220,7 @@
         <section
           class="hero has-bg-image"
           aria-label="home"
-          style="background-image: url('./assets/images/hero-bg.jpg')"
+          style="background-image: url('./assets/images/hero-bg1.png')"
         >
           <div class="container">
             <div class="hero-content">
@@ -508,9 +462,9 @@
             <h2 class="h2 section-title">Latest projects we have done</h2>
 
             <ul class="has-scrollbar">
-              <li class="scrollbar-item"    >
-                <div class="work-card">
-                  <button class="image-item" data-modal="true" data-gallery="car1" aria-label="Open Food image gallery">
+              <li class="scrollbar-item"   >
+                <div class="work-card" >
+                  <button class="image-item" data-modal="true" data-gallery="car1" aria-label="Open Food image gallery" >
                   <figure
                     class="card-banner img-holder image-container"
                     style="--width: 350; --height: 406"
@@ -611,6 +565,7 @@
           initGallery('./assets/data/galleries.json', {
             speed: 600,
           })
+   </script>
         </script>
   
       </article>

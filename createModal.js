@@ -75,7 +75,7 @@ export default function createModal(){
       
       .modal__overlay {
         position: absolute;
-        z-index: 4;
+        z-index: -4;
         bottom: 1rem;
         display: grid;
         gap: 1rem;
